@@ -20,6 +20,8 @@ To do this, we need to understand two major aspects of programming. Logic and Co
 
 Logic is the science of what is true and what is false. For example, it is true that 1+1 == 2 and it is false that 1+1 == 3. That's logic in a nutshell.
 
+### CFU: Give a few sample problems and ask students to evaluate true or false
+
 In ruby, we have the concepts of true and false. Let's open IRB and play with some examples you might remember from math classes.
 
 ```ruby
@@ -70,7 +72,10 @@ In ruby, there are only 2 things that are considered false, the literal word `fa
 !!"" #> true
 ```
 
-`!!` is a nice way to cast a truthy value into it's true or false. Why?
+`!!` is a nice way to cast a truthy value into its true or false. Why?
+
+### CFU
+TRUE/FALSE room sides: Put up a statement using ruby operators on the board, students have to either move to the "true" or the "false" side of the room (put up signs), point to the "true" or the "false" side of the room, or show thumbs up or down.
 
 ### Boolean
 
@@ -105,7 +110,7 @@ y = 2
 x < y && 0
 ```
 
-Is that trying to say "True" if x is less than y and x is less than 0? If so, we'd expect false right? x isn't less than 0. But we get back true, why? Because Ruby is literaly. The thing on the right is just the number 0, ruby doesn't carry over the idea of comparing x less than to the right. We'd have to do:
+Is that trying to say "True" if x is less than y and x is less than 0? If so, we'd expect false right? x isn't less than 0. But we get back true, why? Because Ruby is literal. The thing on the right is just the number 0, ruby doesn't carry over the idea of comparing x less than to the right. We'd have to do:
 
 ```ruby
 x = 1
@@ -113,6 +118,9 @@ y = 2
 
 x < y && x < 0 #> false
 ```
+
+### CFU
+Teach mental/physical representations - ! angry (no!), && emphasizing AAAAND, || cross the street - pick a side, etiher or
 
 **In pairs, work on [Logic Quiz]<!-- (https://github.com/learn-co-curriculum/kwk-l1-logic-quiz) -->** 10 Minutes
 
@@ -157,6 +165,12 @@ end
 
 Break that down for students, covering `if`, `elsif`, and `else`
 
+### CFU
+Morning ritual: ask students students to describe flow control conditionals in the context of a morning ritual, eg:
+  if I wake up before my alarm, then...
+  elsif I wake up at my alarm, then...
+  else PANIC
+  
 ### Lab Options - 20-30 minutes.
 
 1. Introduce the `%` modulor or remainder functionality and have them try to solve [Fizzbuzz Lab]<!-- (https://github.com/learn-co-curriculum/kwk-l1-fizzbuzz) --> - This lab is good because it shows the order of the statements mattering and it's a classic interview question and you can say lots of programmers can't solve it :-)
