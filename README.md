@@ -20,7 +20,7 @@ To do this, we need to understand two major aspects of programming. Logic and Co
 
 Logic is the science of what is true and what is false. For example, it is true that 1+1 == 2 and it is false that 1+1 == 3. That's logic in a nutshell.
 
-### CFU: Give a few sample problems and ask students to evaluate true or false
+#### CFU: Give a few sample problems and ask students to evaluate true or false
 
 In ruby, we have the concepts of true and false. Let's open IRB and play with some examples you might remember from math classes.
 
@@ -74,7 +74,7 @@ In ruby, there are only 2 things that are considered false, the literal word `fa
 
 `!!` is a nice way to cast a truthy value into its true or false. Why?
 
-### CFU
+#### CFU
 TRUE/FALSE room sides: Put up a statement using ruby operators on the board, students have to either move to the "true" or the "false" side of the room (put up signs), point to the "true" or the "false" side of the room, or show thumbs up or down.
 
 ### Boolean
@@ -119,8 +119,11 @@ y = 2
 x < y && x < 0 #> false
 ```
 
-### CFU
+#### Instructional Strategy
 Teach mental/physical representations - ! angry (no!), && emphasizing AAAAND, || cross the street - pick a side, etiher or
+
+#### CFU: Turn and Talk
+"What questions do you still have about Boolean operators? Can you come up with another way to remember one or more of these operators?"
 
 **In pairs, work on [Logic Quiz]<!-- (https://github.com/learn-co-curriculum/kwk-l1-logic-quiz) -->** 10 Minutes
 
@@ -165,7 +168,7 @@ end
 
 Break that down for students, covering `if`, `elsif`, and `else`
 
-### CFU
+#### CFU
 Morning ritual: ask students students to describe flow control conditionals in the context of a morning ritual, eg:
   if I wake up before my alarm, then...
   elsif I wake up at my alarm, then...
